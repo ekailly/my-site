@@ -1,7 +1,22 @@
-import '../styles/globals.css'
+import { ChakraProvider } from "@chakra-ui/react";
+import Head from "next/head";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+import { Header } from "../components";
 
-export default MyApp
+const App = (props) => {
+  const { Component, pageProps } = props;
+  return (
+    <>
+      <Head>
+        <title>ekailly.github.io</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
+      <ChakraProvider>
+        <Header />
+        <Component {...pageProps}></Component>
+      </ChakraProvider>
+    </>
+  );
+};
+
+export default App;
