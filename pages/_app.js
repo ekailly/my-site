@@ -8,7 +8,7 @@ const App = (props) => {
   return (
     <>
       <Head>
-        <title>ekailly.github.io</title>
+        <title>Eric Kailly</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <ChakraProvider>

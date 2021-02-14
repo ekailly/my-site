@@ -13,7 +13,7 @@ import { Link } from "../components";
 const About = () => (
   <Container>
     <Head>
-      <title>ekailly.github.io</title>
+      <title>Eric Kailly</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Stack>

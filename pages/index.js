@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <Container>
       <Head>
-        <title>ekailly.github.io</title>
+        <title>Eric Kailly</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Stack>
