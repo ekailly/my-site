@@ -20,7 +20,7 @@ const About = () => (
       <Heading textAlign="center">About</Heading>
       <Text>
         I'm Eric, computer engineering graduate currently working at{" "}
-        <Link href="medimap.ca">Medimap</Link>.
+        <Link href="https://www.medimap.ca">Medimap</Link>.
       </Text>
       <Text mb="16px">
         I've been working full time since May 2019 as a JavaScript developer,
