@@ -19,12 +19,11 @@ const About = () => (
     <Stack>
       <Heading textAlign="center">About</Heading>
       <Text>
-        I'm Eric, computer engineering graduate currently working at{" "}
-        <Link href="https://www.medimap.ca">Medimap</Link>.
+        I'm Eric, a software developer currently working at{" "}
+        <Link href="https://www.fobi.ai/">Fobi</Link>. Formerly at <Link href="https://www.medimap.ca">Medimap</Link>. I have a BASc in Computer Engineering.
       </Text>
       <Text mb="16px">
-        I've been working full time since May 2019 as a JavaScript developer,
-        mainly working with React, React Native, and serverless backends.
+        I mainly have experience with React, React Native, and serverless backends.
       </Text>
 
       <Heading as="h2" textAlign="center">
