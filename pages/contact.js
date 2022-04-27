@@ -1,6 +1,5 @@
 import { Container, Heading, Stack, Text } from "@chakra-ui/react";
 import Head from "next/head";
-
 import { Link } from "../components";
 
 const Contact = () => (
@@ -15,9 +14,7 @@ const Contact = () => (
       </Heading>
       <Text>
         If you wanna talk, feel free to{" "}
-        <Link href="mailto:eric.jkailly@gmail.com">email me</Link>, or dumpster
-        me on <Link href="https://www.chess.com/member/ekailly">Chess.com</Link>
-        , whatever you prefer!
+        <Link href="mailto:eric.jkailly@gmail.com">email me</Link>
       </Text>
       <Text>
         <Link href="https://www.github.com/ekailly">GitHub</Link>
