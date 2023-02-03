@@ -19,7 +19,8 @@ const About = () => (
       <Heading textAlign="center">About</Heading>
       <Text mb="8">
         I'm Eric, a software developer currently working at{" "}
-        <Link href="https://www.fobi.ai/">Fobi</Link>. Formerly at{" "}
+        <Link href="https://www.babbly.co/">Babbly</Link>. Formerly at{" "}
+        <Link href="https://www.fobi.ai/">Fobi</Link> and{" "}
         <Link href="https://www.medimap.ca">Medimap</Link>.
       </Text>
 
@@ -65,17 +66,6 @@ const About = () => (
             I've also built out several full stack features for Medimap's{" "}
             <Link href="https://medimap.ca/ForClinics">facility portal</Link>,
             which is used by over 1200 medical clinics across Canada.
-          </ListItem>
-          <ListItem>
-            I've worked on Medimap's mobile app, which is available on{" "}
-            <Link href="https://play.google.com/store/apps/details?id=com.medimap.nativeapp&hl=en_CA&gl=US">
-              Google Play
-            </Link>{" "}
-            and the{" "}
-            <Link href="https://apps.apple.com/ca/app/medimap/id1460566431">
-              App Store
-            </Link>
-            .
           </ListItem>
         </UnorderedList>
       </Text>
