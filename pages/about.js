@@ -74,6 +74,14 @@ const About = () => (
               .
             </ListItem>
             <ListItem mb="8px">
+              The web app behind{" "}
+              <Link href="https://www.pulseir.com/">PulseIR</Link>, a{" "}
+              <Link href="https://www.fobi.ai/press/fobi-announces-pulseir-subsidiary">
+                subsidiary of Fobi
+              </Link>
+              , was built and shipped end-to-end by myself.
+            </ListItem>
+            <ListItem mb="8px">
               For projects like AltId, CheckVax, and CheckPoint, I worked on
               them end-to-end by working on the frontend, backend and setting up
               AWS infrastructure using Terraform and CI/CD pipelines
