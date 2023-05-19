@@ -2,8 +2,9 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Head from "next/head";
 
 import { Header } from "../components";
+import { AppProps } from "next/app";
 
-const App = (props) => {
+const App = (props: AppProps) => {
   const { Component, pageProps } = props;
   return (
     <>
