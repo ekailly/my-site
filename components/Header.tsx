@@ -23,7 +23,7 @@ export const Header = () => {
           <Link href="/">eric kailly</Link>
         </Heading>
       </Flex>
-      <Box alignItems="center" display="flex" direction="row">
+      <Flex alignItems="center" direction="row">
         {LINKS.map(({ label, path }) => (
           <Text mr={6} display="block" key={label}>
             <Link href={path}>{label}</Link>
@@ -32,7 +32,7 @@ export const Header = () => {
         <Button onClick={toggleColorMode}>
           {colorMode === "light" ? "🌜" : "🌞"}
         </Button>
-      </Box>
+      </Flex>
     </Flex>
   );
 };
