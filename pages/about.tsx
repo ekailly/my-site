@@ -19,12 +19,14 @@ const About = () => (
     <Stack>
       <Heading textAlign="center">About</Heading>
       <Text style={{ marginBottom: 16 }}>
-        Hi, I'm Eric, I work as a software developer. Formerly at{" "}
+        Hi, I'm Eric, I work as a software developer. I consider myself a
+        generalist, but I mainly have experience with TypeScript, React and
+        React Native. Formerly at{" "}
         <Link href="https://www.babbly.co/">Babbly</Link>,{" "}
         <Link href="https://www.fobi.ai/">Fobi</Link> and{" "}
-        <Link href="https://www.medimap.ca">Medimap</Link>.
+        <Link href="https://www.medimap.ca">Medimap</Link>. I am currently
+        seeking new opportunities.
       </Text>
-
       <Heading
         as="h3"
         size="lg"

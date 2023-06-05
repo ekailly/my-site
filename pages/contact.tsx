@@ -13,8 +13,7 @@ const Contact = () => (
         Contact
       </Heading>
       <Text>
-        If you wanna talk, feel free to{" "}
-        <Link href="mailto:eric.jkailly@gmail.com">email me</Link>
+        <Link href="mailto:eric.jkailly@gmail.com">Email</Link>
       </Text>
       <Text>
         <Link href="https://www.github.com/ekailly">GitHub</Link>
