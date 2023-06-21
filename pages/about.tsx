@@ -41,7 +41,8 @@ const About = () => (
         </Heading>
         <UnorderedList mb="8">
           <ListItem mb="4">
-            I've worked on Babbly's{" "}
+            I've worked with engineers previously at{" "}
+            <Link href="https://alexa.amazon.com/">Alexa</Link> on Babbly's{" "}
             <Link href="https://apps.apple.com/ca/app/babbly-baby-speech-tracker/id1513738981">
               iOS
             </Link>{" "}
@@ -49,12 +50,13 @@ const About = () => (
             <Link href="https://play.google.com/store/apps/details?id=babbly.app&hl=en_CA&gl=US&pli=1">
               Android
             </Link>{" "}
-            app, and built out features like a new onboarding flow, and in-app
-            YouTube videos
+            app, which allows parents to monitor their child's speech
+            development through Babbly's AI. I've built out features like a new
+            onboarding flow, in-app YouTube videos and more.
           </ListItem>
           <ListItem>
-            I also built a project with React Native Web, but can't mention much
-            else about it!
+            I also built out an unannounced React Native web project while at
+            Babbly and had it ready for real users in 4 weeks.
           </ListItem>
         </UnorderedList>
       </Box>
@@ -84,7 +86,7 @@ const About = () => (
           <ListItem mb="8px">
             For projects like AltId, CheckVax, and CheckPoint, I worked on them
             end-to-end by working on the frontend, backend and setting up AWS
-            infrastructure using Terraform and CI/CD pipelines
+            infrastructure using Terraform and GitLab CI/CD pipelines
           </ListItem>
         </UnorderedList>
       </Box>
