@@ -19,7 +19,8 @@ const About = () => (
     <Stack>
       <Heading textAlign="center">About</Heading>
       <Text style={{ marginBottom: 16 }}>
-        Hi, I'm Eric, I work as a software developer. I consider myself a
+        Hi, I'm Eric, I work as a software engineer at{" "}
+        <Link href="https://www.ev.com/">EV.com</Link>. I consider myself a
         generalist, but I mainly have experience with TypeScript, Node.js,
         React, and React Native. Formerly at{" "}
         <Link href="https://www.babbly.co/">Babbly</Link>,{" "}
@@ -34,6 +35,20 @@ const About = () => (
       >
         What I've worked on
       </Heading>
+      <Box mb="8">
+        <Heading as="h4" size="md" textAlign="center" mb="4">
+          EV.com
+        </Heading>
+        <UnorderedList mb="8">
+          <ListItem mb="4">
+            I've shipped a couple of features at EV.com, such as the new UI for
+            the vehicle cards for{" "}
+            <Link href="https://ev.com/search">the search page</Link>,{" "}
+            <Link href="https://ev.com/partner">dealer onboarding</Link>, saving
+            vehicles with the heart button you see on the search page, and more!
+          </ListItem>
+        </UnorderedList>
+      </Box>
       <Box mb="8">
         <Heading as="h4" size="md" textAlign="center" mb="4">
           Babbly
