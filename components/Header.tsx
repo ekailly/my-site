@@ -1,9 +1,6 @@
 import { Flex, Heading, Link, Text } from "@chakra-ui/react";
 
-const LINKS = [
-  { label: "about", path: "/about" },
-  { label: "contact", path: "/contact" },
-];
+const LINKS = [{ label: "contact", path: "/contact" }];
 
 export const Header = () => (
   <Flex direction="row" justify="center" align="center" padding="1.5rem">
