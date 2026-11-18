@@ -1,20 +1,33 @@
-import { Flex, Heading, Link, Text } from "@chakra-ui/react";
+import NextLink from "next/link";
 
-const LINKS = [{ label: "contact", path: "/contact" }];
+const LINKS = [
+  { label: "about", path: "/about" },
+  { label: "contact", path: "/contact" },
+];
 
 export const Header = () => (
-  <Flex direction="row" justify="center" align="center" padding="1.5rem">
-    <Flex align="center" mr={5}>
-      <Heading as="h1" size="lg" letterSpacing={"-.1rem"}>
-        <Link href="/">eric kailly</Link>
-      </Heading>
-    </Flex>
-    <Flex alignItems="center" direction="row">
+  <header className="flex items-center justify-center p-6">
+    <div className="mr-5 flex items-center">
+      <h1 className="text-2xl font-bold tracking-tight">
+        <NextLink
+          href="/"
+          className="hover:opacity-80"
+        >
+          eric kailly
+        </NextLink>
+      </h1>
+    </div>
+    <nav className="flex items-center">
       {LINKS.map(({ label, path }) => (
-        <Text mr={6} display="block" key={label}>
-          <Link href={path}>{label}</Link>
-        </Text>
+        <span className="mr-6" key={label}>
+          <NextLink
+            href={path}
+            className="hover:opacity-80"
+          >
+            {label}
+          </NextLink>
+        </span>
       ))}
-    </Flex>
-  </Flex>
+    </nav>
+  </header>
 );

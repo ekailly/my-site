@@ -2,9 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+This app needs Node 20.9+ (`.nvmrc` pins 24.14.0). Homebrew `pnpm` 11 needs Node 22.13+, so `nvm use` in this directory first:
 
 ```bash
+nvm use
+pnpm i
 pnpm dev
 ```
 

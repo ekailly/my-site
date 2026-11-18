@@ -4,13 +4,18 @@
 /node_modules
 /.pnp
 .pnp.js
+.pnpm-store/
 
 # testing
 /coverage
 
+# vscode
+/.vscode
+
 # next.js
 /.next/
 /out/
+next-env.d.ts
 
 # production
 /build
